@@ -9,8 +9,6 @@ function onSubmit(evt) {
     email: email.value,
     password: password.value,
   };
-  console.log (dataForm);
+  console.log(dataForm);
   form.reset();
 }
-
-

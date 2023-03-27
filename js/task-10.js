@@ -20,8 +20,6 @@ function inputValue(evt) {
 
 createButton.addEventListener("click", createBoxes);
 
-
-
 function createBoxes() {
   let boxSize = 30;
   for (let i = 0; i < amount; i += 1) {
@@ -37,5 +35,5 @@ function createBoxes() {
 destroyButton.addEventListener("click", destroyBoxes);
 
 function destroyBoxes(evt) {
-    divBoxes.innerHTML = '';
+  divBoxes.innerHTML = "";
 }
